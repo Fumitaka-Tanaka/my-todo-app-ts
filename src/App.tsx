@@ -9,7 +9,7 @@ interface FormData {
 }
 
 class App extends Component {
-  //ToDoListをstateに定義、初期値はlocalStrageから取得または[]
+  //ToDoListをstateに定義、初期値は[]
   state: FormData = {
     todoList: [], title: '', description: ''
   };
